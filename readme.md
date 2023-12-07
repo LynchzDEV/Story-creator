@@ -15,11 +15,7 @@
 #### Conceptual Example:
 ```javascript
 function displayStoryPart(storyPartId) {
-  const storyPart = storyParts.find(part => part.id === storyPartId);
-  const storyContainer = document.getElementById('story-container');
-  storyContainer.textContent = storyPart.text;
-
-  updateOptions(storyPart.options);
+  //implement here
 }
 ```
 
@@ -36,15 +32,7 @@ function displayStoryPart(storyPartId) {
 #### Conceptual Example:
 ```javascript
 function updateOptions(options) {
-  const optionsContainer = document.getElementById('options-container');
-  optionsContainer.innerHTML = ''; // Clear existing options
-
-  options.forEach(optionId => {
-    const optionButton = document.createElement('button');
-    optionButton.textContent = `Option ${optionId}`;
-    optionButton.addEventListener('click', () => displayStoryPart(optionId));
-    optionsContainer.appendChild(optionButton);
-  });
+  //implement here
 }
 ```
 
