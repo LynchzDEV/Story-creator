@@ -9,7 +9,7 @@
 #### Basic Steps:
 1. **Select the Story Part:** Based on an ID or other identifier, find the corresponding story part from your story array.
 2. **Display the Story Text:** Use DOM manipulation to display the text of the story part on the webpage.
-3. **Clear Previous Options:** If there are any existing options shown, clear them before displaying new ones.
+3. **Clear Previous Options:** If there are any existing options shown, clear them before displaying new ones. (optional, you can join new storyline into same string)
 4. **Call `updateOptions()`:** To display the new set of options related to this part of the story.
 
 #### Conceptual Example:
