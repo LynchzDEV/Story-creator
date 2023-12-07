@@ -110,4 +110,5 @@ export const storyParts = [
   { id: 37, text: 'You swap the potion with water.', options: [72, 73] },
   { id: 38, text: 'You drink the potion and die.', options: [74, 75] },
   { id: 39, text: 'You pretend to drink the potion.', options: [76, 77] },
+  //... continue your story
 ];
