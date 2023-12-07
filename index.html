@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Story Creator</title>
+  </head>
+  <style>
+    body {
+      background-color: #f0f0f0;
+      font-family: sans-serif;
+    }
+    #story-container {
+      width: 80%;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    #story-text {
+      font-size: 18px;
+      line-height: 1.5;
+      margin: 0 0 10px 0;
+    }
+    #options-container {
+      display: flex;
+      flex-direction: column;
+    }
+    .option {
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #f0f0f0;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+    .option:hover {
+      background-color: #e0e0e0;
+    }
+    .option:active {
+      background-color: #d0d0d0;
+    }
+  </style>
+  <body>
+    <div id="story-container">
+      <p id="story-text"></p>
+      <div id="options-container"></div>
+    </div>
+    <script src="storyCreator.js"></script>
+  </body>
+</html>
